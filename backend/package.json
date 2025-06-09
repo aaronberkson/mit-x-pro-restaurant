@@ -1,0 +1,18 @@
+{
+  "scripts": {
+    "start": "vite",
+    "start:backend": "node backend/start-backend.js",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "cors": "^2.8.5",
+    "dotenv": "^8.6.0",
+    "express": "^4.17.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "reactstrap": "^8.9.0",
+    "stripe": "^8.137.0"
+  }
+}
