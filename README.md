@@ -57,6 +57,7 @@ GravyTrain is a production-ready demo simulating a modern restaurant application
 ---
 
 ## File Structure
+<pre>
 .
 ├── app/                      # Static assets and main React entry point
 │   ├── app.css
@@ -96,6 +97,8 @@ GravyTrain is a production-ready demo simulating a modern restaurant application
 ├── package.json              # Root package dependencies (frontend)
 ├── package-lock.json
 └── vite.config.js            # Vite configuration for building the React app
+</pre>
+
 
 ## Installation & Setup
 
