@@ -1,0 +1,43 @@
+{
+  "kind": "collectionType",
+  "collectionName": "orders",
+  "info": {
+    "singularName": "order",
+    "pluralName": "orders",
+    "displayName": "Orders",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Address": {
+      "type": "string"
+    },
+    "UID_Order": {
+      "type": "uid"
+    },
+    "City": {
+      "type": "string"
+    },
+    "Dishes": {
+      "type": "json"
+    },
+    "Amount": {
+      "type": "decimal"
+    },
+    "Token": {
+      "type": "string"
+    },
+    "State": {
+      "type": "string"
+    },
+    "Charge_ID": {
+      "type": "string"
+    },
+    "User": {
+      "type": "string"
+    }
+  }
+}
