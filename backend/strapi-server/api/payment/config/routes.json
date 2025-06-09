@@ -1,0 +1,12 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/create-payment-intent",
+      "handler": "payment-intent.create",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}

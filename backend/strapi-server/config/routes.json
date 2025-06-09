@@ -1,0 +1,20 @@
+{
+  "routes": [
+    {
+      "method": "POST",
+      "path": "/orders",
+      "handler": "Order.createOrder",
+      "config": {
+        "policies": []
+      }
+    },
+    {
+      "method": "GET",
+      "path": "/test-stripe-connection",
+      "handler": "TestController.testStripeConnection",
+      "config": {
+        "policies": []
+      }
+    }
+  ]
+}
